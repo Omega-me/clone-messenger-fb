@@ -1,0 +1,31 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: start;
+}
+.message__username {
+  color: grey;
+  font-size: 0.7rem;
+  margin: 0 7px;
+  margin-top: 15px;
+}
+.message__card {
+  width: fit-content;
+  max-width: 200px;
+  padding: 10px;
+  margin: 5px;
+  background-color: rgb(243, 243, 243) !important;
+}
+.message__user {
+  display: flex;
+  justify-content: flex-end;
+}
+.message__userCard {
+  width: fit-content;
+  max-width: 200px;
+  padding: 10px;
+  margin: 5px;
+  background-color: #00b2ff !important;
+  color: white !important;
+}
